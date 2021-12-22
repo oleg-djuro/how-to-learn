@@ -98,7 +98,7 @@
 
 .two-columns__brief {
   width: 175px;
-  line-height: 1, 2;
+  line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
 }
@@ -185,7 +185,10 @@
 }
 
 .table__text_paragraph {
-  border: 20 0 0 0;
+  margin: 20px 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* Всё, что касается Фейнмана */
@@ -200,11 +203,13 @@
 
 .feynman__title {
   width: 648px;
-  margin: 100px auto;
+  border-top: 100px 0 70px 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  position: absolute;
+  top: 0px;
   z-index: 2;
 }
 
@@ -213,7 +218,7 @@
   font-size: 36px;
   font-weight: normal;
   display: flex;
-  position: absolute;
+  position: relative;
   align-self: center;
   z-index: 2;
 }
