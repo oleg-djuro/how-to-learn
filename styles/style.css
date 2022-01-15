@@ -45,6 +45,8 @@
 
 .header__subtitle {
   width: 388px;
+  margin: 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -56,6 +58,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -104,7 +107,7 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   color: #2f80ed;
 }
 
@@ -118,13 +121,10 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
-}
-
-.two-columns__paragraph_separated {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {
@@ -335,6 +335,7 @@
 /* Всё, что касается Футера */
 
 .footer {
+  box-sizing: border-box
   min-height: 350px;
   padding: 60px 0 40px 0;
   background-color: #1f1f1f;
@@ -345,7 +346,6 @@
 
 .footer__columns {
   width: 90%;
-  margin: 60px auto 40px;
   display: flex;
   justify-content: space-between;
 }
